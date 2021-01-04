@@ -12,10 +12,6 @@
  
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
  */
-
-body{
-    
-}
 .form-control::-moz-placeholder{
    color: #DDDDDD;
    opacity: 1;
@@ -732,14 +728,21 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     position: relative;
     text-align: center;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
-    margin-top: 150px;
+    margin-top: 350px;
     z-index: 3;
 }
 .main .logo.cursive{
     font-family: 'Grand Hotel',cursive;
     font-size: 82px;
-    
+  
 }
+
+.main .logo.roboto{
+    font-family: 'Roboto Mono';
+    font-size: 60px;
+  
+}
+
 .main .content{
     position: relative;
     z-index: 4;
@@ -748,12 +751,12 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     min-height: 140px;
 }
 .main .motto, .main .subscribe .info-text{
-    font-size: 28px;
+    font-size: 24px;
     color: #FFFFFF;
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.33);
     text-align: center;
     margin-top: 50px;
-    
+    padding: 0 10%;
 }
 .main .subscribe .info-text{
     font-size: 18px;
@@ -769,7 +772,6 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     height: auto;
     z-index: 1;
     overflow: hidden;
-    background-image: url('../images/video_bg.png');
     background-position: center center;
     background-size: cover;
 
